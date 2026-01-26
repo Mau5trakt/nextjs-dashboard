@@ -1,0 +1,38 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="psycopg" />
+          <option value="ansicon" />
+          <option value="asttokens" />
+          <option value="blessed" />
+          <option value="colorama" />
+          <option value="curtsies" />
+          <option value="cwcwidth" />
+          <option value="decorator" />
+          <option value="django-cors-headers" />
+          <option value="djangorestframework_simplejwt" />
+          <option value="executing" />
+          <option value="greenlet" />
+          <option value="ipython" />
+          <option value="ipython_pygments_lexers" />
+          <option value="jedi" />
+          <option value="jinxed" />
+          <option value="matplotlib-inline" />
+          <option value="parso" />
+          <option value="prompt_toolkit" />
+          <option value="pure_eval" />
+          <option value="Pygments" />
+          <option value="PyJWT" />
+          <option value="pyxdg" />
+          <option value="stack-data" />
+          <option value="traitlets" />
+          <option value="wcwidth" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
