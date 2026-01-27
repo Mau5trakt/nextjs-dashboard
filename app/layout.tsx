@@ -1,6 +1,7 @@
 import { inter} from '@/app/ui/fonts'
 import '@/app/ui/global.css'
 import { Metadata } from 'next';
+import StoreProvider from '@/storeProvider';
  
 export const metadata: Metadata = {
   title: 'Acme Dashboard',
@@ -12,12 +13,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode;
-}) {
+}: Readonly<{
+  children: React.ReactNode
+}>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
+        <StoreProvider>
+          <body className={`${inter.className} antialiased`}>{children}</body>
+        </StoreProvider>
     </html>
   );
 }
